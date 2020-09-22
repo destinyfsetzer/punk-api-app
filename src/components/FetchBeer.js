@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import LikeButton from './LikeButton';
 import BeerDeets from './BeerDeets';
 
 class FetchBeer extends Component {
@@ -22,7 +21,7 @@ class FetchBeer extends Component {
             <div>
                 <button onClick={this.fetchBeer}>Gimme Beer</button>
                 <ul>
-                 <li><BeerDeets beerList={this.state.beerList}/><LikeButton/></li>
+                 <li><BeerDeets beerList={this.state.beerList}/></li>
                 </ul>
             </div>
         )
