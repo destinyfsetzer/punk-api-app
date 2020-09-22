@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import LikeButton from './LikeButton';
+import BeerDeets from './BeerDeets';
 
 class FetchBeer extends Component {
     state = {
@@ -21,7 +22,7 @@ class FetchBeer extends Component {
             <div>
                 <button onClick={this.fetchBeer}>Gimme Beer</button>
                 <ul>
-        {this.state.beerList.map(beer => <li>{beer.name}<LikeButton/></li>)}
+                 <li><BeerDeets beerList={this.state.beerList}/><LikeButton/></li>
                 </ul>
             </div>
         )

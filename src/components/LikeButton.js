@@ -1,12 +1,12 @@
 import React, {Component} from 'react';
 
-class LikeButton extends React.Component {
+class LikeButton extends Component {
     state = {
     likes: 0
 };
 
 render() {
-    return <button onClick={this.addLike}>Likes: {this.state.likes} </button>
+    return <button onClick={this.addLike}> Likes: {this.state.likes} </button>
 }
 
 addLike = () => {
