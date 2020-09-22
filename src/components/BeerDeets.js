@@ -5,7 +5,7 @@ import LikeButton from './LikeButton';
 function BeerDeets(props) {
    return(
        <div>
-       {props.beerList.map(beer => <li>{beer.name}{beer.description}< LikeButton /></li>)}
+       {props.beerList.map(beer => <li><b>{beer.name}:</b><br></br>{beer.description}<p>-------------------------------------------</p>< LikeButton /></li>)}
       </div>
    )
 }

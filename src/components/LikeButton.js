@@ -6,7 +6,7 @@ class LikeButton extends Component {
 };
 
 render() {
-    return <button onClick={this.addLike}> Likes: {this.state.likes} </button>
+    return <button onClick={this.addLike}> Me Likey: {this.state.likes} </button>
 }
 
 addLike = () => {
