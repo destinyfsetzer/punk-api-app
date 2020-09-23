@@ -13,6 +13,33 @@
   }
 }
 
+li {
+  font-size: small;
+  margin-left: 5%;
+  margin-right: 7%;
+  list-style: none;
+}
+
+b {
+  font-size: 50px;
+}
+
+h1 {
+  letter-spacing: 5px;
+}
+
+button {
+  color: black;
+  border: none;
+  background-color:#0797BD ;
+  height: 30px;
+  width: 120px;
+  text-align: center;
+  font-family: monospace;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
