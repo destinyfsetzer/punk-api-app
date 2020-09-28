@@ -26,18 +26,39 @@ b {
 
 h1 {
   letter-spacing: 5px;
+  font-weight: 800;
+}
+
+.likeButton {
+  font-size: 14px;
+  color: yellow;
+}
+
+p > span {
+  color: white;
+  font-size: 15px;
+}
+
+p {
+  font-size: 30px;
+}
+
+.fetchButton {
+  font-size: 50px;
+  font-family: monospace;
 }
 
 button {
   color: black;
   border: none;
-  background-color:#0797BD ;
-  height: 30px;
-  width: 120px;
+  background-color: #0797bd;
+  height: auto;
+  width: auto;
   text-align: center;
-  font-family: monospace;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bold;
   letter-spacing: 2px;
+  border: 4px solid orange;
 }
 
 .App-header {
@@ -62,4 +83,8 @@ button {
   to {
     transform: rotate(360deg);
   }
+}
+
+b {
+  color: orange;
 }
