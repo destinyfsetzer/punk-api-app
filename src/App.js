@@ -1,8 +1,7 @@
-import React from 'react';
-import FetchBeer from './components/FetchBeer';
-import logo from './logo.svg';
-import './App.css';
-import LikeButton from './components/LikeButton';
+import React from 'react'
+import FetchBeer from './components/FetchBeer'
+import logo from './logo.svg'
+import './App.css'
 
 function App() {
   return (
@@ -12,10 +11,10 @@ function App() {
         <h1>
             -- PUNK API BABY --
         </h1>
-        < FetchBeer />
+        <FetchBeer />
       </header>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
